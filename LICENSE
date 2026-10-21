@@ -1,0 +1,22 @@
+----- BEGIN AHCL NOTICE -----
+
+This license notice applies to:
+the memehub-derived repository automation and maintained documentation in czxieddan/pig-memes
+
+AHCL-covered portions:
+.github/workflows/, scripts/, README.md, and project-maintained automation documentation derived from memehub; submitted images retain their applicable rights
+
+The portions identified above are licensed under version 1.2 of the
+Aperip Heimdall Commons License (AHCL 1.2), subject to its provisions
+concerning migration to later official versions.
+
+Official AHCL text, announcements, and public notices:
+https://ahcl.aperip.com
+
+AHCL Materials Directory (relative to the directory containing this LICENSE):
+.ahcl/
+
+Official or recognized AHCL 1.2 copy:
+.ahcl/AHCL-1.2.md
+
+----- END AHCL NOTICE -----
