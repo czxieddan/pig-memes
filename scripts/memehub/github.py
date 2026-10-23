@@ -158,8 +158,8 @@ class GitHub:
         if not commits:
             return False
         sha = commits[0]["sha"]
-        combined = self.request("GET", f"{repository_path(status_repo)}/commits/{sha}/status?per_page=100")
-        return any(trusted_receipt(status, publisher) for status in combined["statuses"])
+        statuses = self.request("GET", f"{repository_path(status_repo)}/commits/{sha}/statuses?per_page=100")
+        return any(trusted_receipt(status, publisher) for status in statuses)
 
     def status(self, repo, sha, state, description, context="memehub/validate"):
         body = {"state": state, "context": context, "description": description[:140]}
